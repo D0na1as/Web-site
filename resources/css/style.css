@@ -168,7 +168,7 @@ input[type=submit]:visited {
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 206, 255)), to(rgba(0,0,0,.1))), url(img/Main.jpg);
     
-    background-image: linear-gradient(rgba(0, 206, 255,1), rgba(0, 0, 0, 0.1)), url(img/Main.jpg);
+    background-image: linear-gradient(rgba(0, 206, 255,1), rgba(0, 0, 0, 0.1)), url(img/Main-min.jpg);
     
     background-size: cover;
     background-position: center;
@@ -327,7 +327,7 @@ input[type=submit]  {
     margin-bottom: 5%;
     color: rgba(255, 255, 255, 0.9);
     font-weight: 400;
-    font-size: 150%;
+    font-size: 130%;
     text-transform: uppercase;
 }
 
@@ -338,7 +338,7 @@ input[type=submit]  {
 }
 
 .box img {
-    height: 330px;
+    height: 300px;
     width: auto;
 }
 
@@ -346,8 +346,8 @@ input[type=submit]  {
     text-align: left;
     padding-left: 10px;
     vertical-align: middle;
-    line-height: 145%;
-    font-size:  130%;
+    line-height: 135%;
+    font-size:  110%;
     font-weight: 400;
     word-spacing: 1px;
     color: rgba(255, 255, 255, 0.9);
@@ -422,6 +422,11 @@ textarea {
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
+    
+}
+
+select {
+    max-height: 40px;
 }
 
 textarea {
