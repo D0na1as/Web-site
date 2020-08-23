@@ -1,0 +1,231 @@
+
+/* Big tablet to 1200 (smaller then 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .main__text {
+        width: 100%;
+        padding: 0 2%
+    }
+    
+    .row { padding: 0 2%; }
+    
+    .box img { 
+        margin-left: -5px;
+        height: 300px; 
+    }
+    
+    .main__nav li { margin-left: 20px; }
+    
+    .box h3 { font-size: 130%; }
+    .box p { 
+        padding-left: 5px;
+        font-size:  110%;
+    }
+    
+    .ports {
+        margin-bottom: 30px;
+    }
+    
+    .ports div { font-size:  140%; }
+    .travel__box:last-child { margin-top: 40px; }  
+    .map {  height: 350px; }
+    
+    .contact__form { font-size: 110%; }
+    
+    footer { 
+        font-size: 100%;
+        display: block;
+    }
+    footer p { font-size: 90%; }
+    .footer__nav li { margin-right: 10px }
+}
+
+/* Small tablet to big tab: 768 - 1023px */
+@media only screen and (max-width: 1023px) {
+    .main__text {
+        top: 50%;
+    }
+    
+    .main__nav li { 
+        margin-left: 2px;
+    }
+    .main__nav li a,
+    .main__nav li a:hover,
+    .main__nav li a:active,
+    .sticky .main__nav li a:hover,
+    .sticky .main__nav li a:active { 
+       padding: 10px 20px 2px 20px;
+    }
+
+    .logo { height: 70px; }
+    
+    .main__name { font-size: 300%; }
+    
+    .box img { height: 275px; }
+
+    .box {
+        display: block;
+        text-align: center;
+    }
+    .box h3 { font-size: 110%; }
+    .box p { 
+        padding-left: 0;
+        font-size:  100%; 
+    }
+    
+    .about { width: 90%; }
+    
+    .main__line { font-size: 180%; }
+    
+    .main__nav { display: block;}
+    
+    h2 { font-size: 200%  }
+    
+    .long__copy { font-size: 100%; }
+    
+    .about {
+        margin-top: 40px;
+        width: 100%;
+        padding: 0 0;
+        background: rgba(12, 129, 160, 1);
+    }
+    
+    .ports div { 
+        width: 35px;
+        height: 35px;
+        padding: 4px 0 0 0;
+        font-size: 110%; 
+    }
+    .travel__box:last-child { margin-top: 30px; }   
+    .ports p { 
+        font-size: 90%; 
+        margin-left: 50px;
+    }
+    .ports {
+        margin-bottom: 20px;
+    }
+    .map {  height: 335px; }
+    
+    .section__form { width: 100%; }
+    
+    .contact__form { font-size: 90%; }
+    
+    footer p { font-size: 70% }
+    footer { font-size: 80%; }
+    .footer__nav li { margin-right: 10px; }
+    .social__links li:last-child { margin-right: 10px; }
+}
+
+/* Small phones and tablets: 480 - 767px */
+@media only screen and (max-width: 767px) {
+    
+    .col {  width: 100%; }
+    .main__text {
+        top: 60%;
+    }
+    .btn {
+        margin-bottom: 10px;
+    }
+    
+    .main__name { font-size: 250%; }
+    
+    .section__about h2 { font-size: 150%; }
+    .about {
+        margin-top: 50px;
+    }
+    .box { float: right; }
+    .box img { 
+        height: 300px;
+        margin-bottom: -10px;
+        padding-top: 10px
+    }
+    
+    .photos__showcase li {
+        width: 50%;
+    }
+    .main__line {
+        font-size: 150%;
+    }
+    
+    .box h3 { 
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 110%; 
+    }
+    .box p { 
+        padding: 0 50px;
+        font-size:  90%; }
+    
+    .section__travel h2 { font-size: 150%; }
+    .ports {
+        margin-bottom: 0px;
+    }
+    .ports div { 
+        width: 30px;
+        height: 30px;
+        padding: 2px 0 0 0;
+        font-size: 100%; 
+    }
+    .travel__box:last-child { margin-top: 10px; }   
+    .ports p { 
+        font-size: 80%;
+        margin-left: 40px;
+    }
+    .map {  height: 350px; }
+    
+    .section__form h2 { font-size: 150%}
+    
+    .contact__form { font-size: 80%; }
+    
+    footer { padding-top: 20px; }
+    
+    h2:after {
+        width: 100%;
+    }
+    
+    .main__nav { display: none; }
+    .mobile__nav_icon { 
+        display: inline-block;
+        margin-top: 15px;
+    }
+    
+    .main__nav { float: left; }
+    .main__nav li { display: block; }
+    
+    .sticky .main__nav { 
+        float: left; 
+        margin-bottom: 5px;
+    }
+    
+    .main__nav li a,
+    .sticky .main__nav li a {
+        min-width: 100px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+    }
+    
+    .main__nav li a:link,
+    .main__nav li a:visited,
+    .sticky .main__nav li a:link,
+    .sticky .main__nav li a:visited {
+        padding: 7px 10px 2px 10px;
+        border-radius: 5px;
+        border: 0;
+        font-size: 80%;
+    }
+
+    .main__nav li a:hover,
+    .main__nav li a:active,
+    .sticky .main__nav li a:hover,
+    .sticky .main__nav li a:active {
+        padding: 7px 10px 2px 10px;
+        border-radius: 5px;
+        
+    }
+    
+    .mobile__nav_icon i { color: rgba(60, 85, 94, 1); }
+}
+
+/* Small phones: 0 - 480px */
+@media only screen and (max-width: 480px) {
+        .box img { height: 200px; }
+}
